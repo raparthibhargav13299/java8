@@ -1,0 +1,161 @@
+Default Method and Static method in an interface:
+-------------------------------------------------
+An interface can have abstract methods and default methods and static methods.
+
+Default method:
+----------------
+    -Defender method
+    -virtual extension method
+
+interface Mobile{
+    void calling();
+    void messaging();
+    default void faceID(){
+        
+    }
+    
+}
+
+class IPhone implements Mobile{
+
+    void calling(){
+        ---
+    }
+    void messaging(){
+        ---
+    }
+    void faceID(){
+        face ID feature
+    }
+}
+class Samsung implements Mobile{
+
+    void calling(){
+        ---
+    }
+    void messaging(){
+        ---
+    }
+    void faceID(){
+    
+    }
+}
+
+
+
+Lambda expression:
+------------------
+forEach()-----
+Collection: List, Al, LL
+
+"Default method is used to provide new functionality without disturbing the existing implemneted classes"
+
+STATIC METHOD:
+---------------
+interface Dream{
+    static void m1(){
+        system.out.prinln("M1 Method");
+    }
+}
+
+When there is Object related Operations are there, then we can go for static methods in an interface; Utility methods can be define in
+an interface. 
+class Test{
+
+    mian(){
+        Dream.m1();
+    }
+}
+
+Functional Interface: (SAM)
+--------------------------
+Predined functional interfaces used for lambda expression
+    -Predicate
+    -Function
+    -Consumer
+    -Supplier
+    
+## This all interfaces are added in JDK8 in java.util.function;
+
+Predicate:
+---------
+Age: 18 
+    if age>18: You can Vote: true
+    else age<18: You cannot vote: false
+    
+Methods:
+    1. test()-- abstract method
+    2. and()
+    3. or
+    4. negate()
+    5. isEqual()
+
+
+Q1: Write a Predicate for find an employee from the given list of employees whose name length is more than 5 "Angelina"
+Q2: Write a Predicate for finding The products whose price is more than 400 and Less than 800
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

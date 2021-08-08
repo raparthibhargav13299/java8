@@ -1,0 +1,123 @@
+Predicate:
+----------
+    -it always return boolean value
+    -it accept one parameter
+    test()
+    Predicate <Integer>
+Function:
+---------
+    -It accept one value and return some value
+    -It can accept any type of data
+    apply()
+    andThen(): Function chaining
+    compose()
+    identity()
+    Function<String, Integer>
+
+Note: The only difference between these two functions is: anThen() here f1 will be executed first and then f2, but in case
+of compose it is reversed.
+
+Consumer: 
+----------
+Consumer will only consume it will not produce anything
+It is an interface which accept one argument but return nothing.
+    -accept(x)
+    -andThen()
+    
+--------------------------------------------------
+BiPredicate: It accept 2 arguments and return boolean
+BiFunction: It accpet 2 arguments and return a value
+BiConsumer: It accept 2 arguments and return nothing
+
+Why we dont have BiSupplier?
+Because Supplier will not accept any argument. So there is no concept of passing two argumnets.
+
+
+Primitive version of Predicate:
+----------------------------
+To avoid lots of conversion, we use specific primitive version of Functional Interface.
+
+Date and Time API:
+-----------------
+leap year: isLeap(2004)
+
+package name: java.time;
+LocalDate: Class
+LocalTime:Class
+LocalDateTime:Class
+Period:Class
+Duration:Class
+Clock:Class
+Instant:Class
+Year:Class
+Month enum
+
+---------------------------
+
+Order item on Amazon: 
+1. put in cart
+2. pin code
+3. make payment
+4. delivery date display
+
+
+500048: Order placed date+5 day: 2021/04/12
+500036
+500245
+365966
+
+
+
+StringJoiner Class:
+-------------------
+Is used to construct a sequence of characters, by using delimiter. We can pass a delimiter command like(, - _ "" ' ) {, []
+
+prefix: adding before char sequence
+postfix: adding after char sequence 
+
+
+
+
+
+Optional Interface
+Stream API
+Method and Constructor reference
+Nshron JS Engine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

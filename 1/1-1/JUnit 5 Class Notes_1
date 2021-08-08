@@ -1,0 +1,141 @@
+Building Java8 Functional Application Through TDD:
+--------------------------------------------------------
+TDD: (Test Driven Development)
+
+    1. What is Maven
+    2. Java-8 Features
+    3. JUnit Testing
+    
+    
+MAVEN:
+------------
+Maven is a project management tool.
+
+Before maven what was the problem?
+------------------------------------------
+Tourism: java, mysql, springboot, hibernate, services etc
+
+OLD approach:
+------------------
+dependecies: spring-10 , hibernate-12, mysql-1
+updation
+
+Using Maven:
+---------------------
+POM: (project object model) --> pom.xaml ----- dependencies
+1. Development is very easy
+2. We can add jars and other dependecies very easily
+3. It is verry helpful for updating jars and othe dependencies
+4. We can develope any type of projet like WAR, JAR
+5. We can very easily intergrate our project with Gitlab
+
+---Project Development Steps:
+-------------------------------------
+1. Requirement Analysis
+2. Use Case
+3. Development started
+4. Testing: Manual, Automated
+5. Production release
+
+
+
+TDD: (Test driven development):
+------------------------------------
+Writing fail tests: We are writing test cases
+Make test cases passed: We will make sure all the test cases are passed, but we will not be concerned about the quality of code
+Refactoring: fine tuning of coding, concise coding
+
+Testing:
+---------------------
+Checking whether the application is meeting the clinet specific requirement or not.
+
+
+Testing Types:
+    1. Functional Testing
+        1. White Box Testing: JUnit Testing ----developer
+        2. Black Box Testing: ---- test enginner
+    2. Non Functional Testing
+
+
+
+Testing Methods or types:
+-------------------------------
+Itegration testing
+Smoke testing
+Perfomrance testing
+efficiency testing
+regration testing
+automated testing
+
+
+Black Box Testing: 
+
+
+
+JUnit-5:
+--------------------
+Junit 5 is testing framework for java applications. in Java 8 very notable chnages has done. In order
+to bring the latest coding styles of java8, we use JUnit 5.
+
+JUnit 5=JUnit 4+ ...
+JUnit is composed of three modules:
+    Junit5= JUnit Jupiter+ JUnit Vintage+Junit Platform
+    Jupiter: It include new programming exetension
+    Vintage: It provides support for JUnit3, 4
+    JUnit platform: launch test cases, IDE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

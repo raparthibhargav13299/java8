@@ -1,0 +1,152 @@
+
+Stream API
+Method and Constructor reference
+Optional Interface
+Nshron JS Engine--- 6
+
+Stream API:
+----------
+Map, List, Set, Queue
+
+Collection: Collection is used to store the collection objects.
+Stream API: Stream is used to process the data, The type of collection can be any type like List, Map, Set.
+
+Methods in Stream:
+-----------------
+1. filter(): filter the collection as per the requirement
+2. reduce(): segregate the data, aggregate
+3. map(): 
+4. count(): count the number of objects in a stream
+5. sorted(): in a specific order we can sort the objects
+6. collect(): collecting data
+7. distinct: unique objects
+
+
+IO Streams: Reading the file or writing in file in binary format java.io package
+
+List=5000 object
+
+Traverse:
+    foreach
+    enhanced loop
+    Iterator: List+Set: HS, LHS, TS
+    ListIterator: It is used to iterate the objects, which are list type only. AL, LL, VR
+
+Stream API: java.util
+"Strean is not to store the elements it just convey the elements"
+Once the strean is processed, we cant use it for next time. If we want to use then we have to creat a new one. 
+
+----------------------------------------
+
+Sport shoes : shoe
+Jeans: jeans
+
+
+
+customer ID, customer Name, Interest
+101          Peter          shoe   
+101          Peter          sirt  
+101          Peter          glass  
+101          Peter          pen  
+101          Peter          shoe  
+101          Peter          bag  
+101          Peter          shoe  
+101          Peter          shoe  
+101          Peter          laptop  
+101          Peter          shoe  
+101          Peter          laptop  
+101          Peter          shoe  
+
+List<Customer> customerIntrestedInShoes;
+
+
+
+:: Operator:
+------------
+Method reference
+    -static method reference:  Employee::init;
+    -intsance method reference : new Employee()::init;
+Constructor reference: Employee:: new;
+
+
+Advantage: Code Reuse
+
+"How our constructor logic will become the implementation of a new method"
+
+Employee(){
+    
+    -
+    -
+    -
+    -
+    -
+    100 lines code
+}
+
+
+
+
+
+public void m1(){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------

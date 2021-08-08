@@ -1,0 +1,67 @@
+Optional Class
+Nashron JS Engine
+
+Nashron: 
+--------
+It is Javascript engine, built inside JDK. It is used to run JS files.
+Rhino: Before JDK-8
+Nshron: After JDK
+JDK_16: Remove this
+
+command jjs
+javac abc.java: compile
+java abc
+
+jjs abc.js
+
+---------------------------------
+Optional classs:
+----------------
+Exceptions:
+    -Compile time exception
+    -Runtime exception
+    
+Runtime exception:
+    -NullPointerException
+    -ArrayIndexOutOfBoundsException
+    -NumberFormatException
+    
+    
+Optional class:
+----------------
+Optiionlal class is present in java.util. Optional class is used to avoid NullPointerException. Optional class is final clas
+it means no other class can inherit the features of Optional class.
+    -We can avoid NullPointerException
+    -We can expose the exceptions which were hidden
+    -Before we do any operation on String object, we must check whether the Object contains a null value or not.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

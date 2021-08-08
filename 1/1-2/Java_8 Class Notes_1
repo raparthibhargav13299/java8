@@ -1,0 +1,86 @@
+Java 8 New Features: March 2014
+---------------------
+The main reasson for Java-8 advancements: (FUNCTIONAL PROGRAMMING)
+
+---------OOP language---------
+Lambda Expression: LISP
+
+---Java 8
+-----------------
+    1. Lambda Expression
+    2. Functional Interface
+        Predefined Functional Interface (Predicate, Function, Supplier Consumer etc)
+    3. Stream API's
+    4. Double colon operator
+        Method reference
+        constructor reference
+    5. Default Method and Static method in an interface
+    6. Date and Time API
+    7. StringJoiner
+    8. Nashron JS Engine
+    
+    
+1. Lambda Expression:
+---------------------
+ *The main purpose of this is to bring functional programming in Java
+ a. It is an anonymous function
+ b. with no name
+ c. with no return type
+ d. with no modifiers
+ 
+ Syntax: 
+ example: ()->System.out.prinltn
+ example: (s)->s.length;
+ example: (num1, num2)-> {
+            return num1+num2
+            }
+
+
+2. Functional Interface: SAM(Single Abstract Method)
+---------------------
+An interface which has exactly one method is called as functional interface. 
+It cant have other functions except STATIC and DEFAULT.
+
+interface Dream{
+    void everydayDream();
+}
+
+Example of Functional Interfaces:
+-- Comparable
+-- Comparator
+-- Callable
+-- Runnable
+-- ActionListner
+
+------------------------
+
+Lambda expression usage:
+-----------------------
+    --concise way of coding with less code
+    --we can do large operations on Stream (List)
+    
+    
+Problem Statement:
+----------------------
+class Employee{
+    int id;
+    String empname;
+    double salary;
+}
+
+Filter the employee based on their salary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
